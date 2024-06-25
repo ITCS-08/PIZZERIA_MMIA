@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 1rem 1.5rem;
+    background-color: #17a2b8;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+  
+  .cart {
+    display: flex;
+    align-items: left;
+    color: white;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.total-precio {
+    font-size: 1.3rem;
+    margin-left: 600;
+}
+
